@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+body {
+  padding: 15px;
+  background-color: #FAFAFA;
+  font-family: 'Comfortaa', cursive;
+}
+
+.google-img {
+  height: 100px;
+  margin: auto;
+}
+
+/* Card */
+.card-main {
+  margin: auto;
+  width: 900px;
+  height: 600px;
+  box-shadow: 0 8px 12px 0 rgba(225, 225, 225, 0.8), 0 -0.5px 8px 0 rgba(225, 225, 225, 0.6);
+}
+
+.card-heading {
+  margin: auto;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+/* Nexus Section */
+.nexus {
+  display: inline-block;
+  width: 450px;
+  height: 100%;
+ 
+  font-size: 22px;
+  padding: 10px;
+  background-color: #E0E0E0;
+}
+
+.nexus-img {
+  height: 55%;
+}
+
+.nexus-text {
+  font-size: 40px;
+  margin: 30px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.total-text {
+  font-size: 20px;
+  margin: 25px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.cost {
+  color: #757575;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* Credit Card */
+.card-up-section {
+  height: 45%;
+  width: 100%;
+  display: inline-block;
+}
+
+.credit-section {
+  display: inline-block;
+  width: 450px;
+  height: 100%;
+  padding-top: 10px;
+  float: right;
+}
+
+.credit-card {
+  width: 350px;
+  height: 210px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 8px;
+ background-size: cover;
+ }
+
+.layer {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgba(33, 150, 243, 0.7);
+  position: absolute;
+}
+
+.visa-logo {
+  position: absolute;
+  z-index: 1;
+  width: 60px;
+  margin: 13px;
+  right: 0px;
+}
+
+.chip-logo {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  margin: 10px;
+}
+
+/* Card Detail */
+.card-detail {
+  top: 45px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  padding: 10px;
+  
+}
+
+.detail-heading {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 1px;
+}
+
+.detail-info {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* Card Enter Section */
+.card-down-section {
+  height: 55%;
+  width: 100%;
+  display: inline-block;
+}
+
+.card-enter {
+  padding: 0px 50px 0px 50px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-logo {
+  background-color: #fff;
+}
+
+
+.btn-pay {
+  box-shadow: 0 6px 10px 0 rgba(76, 175, 80, 0.5);
+  font-size: 20px;
+  width: 50%;
+  height: 75px;
+  margin: 10px 100px;
+  border-radius: 0px;
+}

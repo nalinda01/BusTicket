@@ -1,0 +1,21 @@
+create database BusDetails;
+
+use BusDetails;
+
+CREATE TABLE bus_table (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    departure VARCHAR(255) NOT NULL,
+    arrival VARCHAR(255) NOT NULL,
+    type VARCHAR(255),
+    time DOUBLE,
+    price DOUBLE,
+    route VARCHAR(255)
+);
+
+
+INSERT INTO bus_table (departure, arrival, type, time, price, route)
+VALUES
+    ('City A', 'City B', 'Express', 5.5, 25.00, 'Route 1'),
+    ('City B', 'City C', 'Local', 3.0, 10.50, 'Route 2'),
+    ('City C', 'City D', 'Express', 6.5, 30.00, 'Route 3'),
+    ('City D', 'City E', 'Local', 2.5, 8.75, 'Route 4');

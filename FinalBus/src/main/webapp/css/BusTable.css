@@ -1,0 +1,178 @@
+@charset "ISO-8859-1";
+.heading {
+  border: 2px solid black;
+  display: inline-block;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+ 
+}
+h4 {
+  text-align: center;
+}
+
+/*
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 50px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        td {
+            color: #666;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            cursor: pointer;
+            border: none;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            filter: brightness(90%);
+        }
+
+        .buy-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .remove-btn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .quantity-input {
+            width: 30px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .total-price-container {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .checkout-btn {
+            background-color: #333;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .checkout-btn:hover {
+            background-color: #555;
+        }
+
+        .goBack-btn {
+            background-color: #ccc;
+            color: #333;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .goBack-btn:hover {
+            background-color: #bbb;
+        }
+   */
+ 
+ /* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px ;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Buy button 
+button:nth-child(1) {
+    background-color: #333;
+    color: white;
+}
+*/
+button:nth-child(1):hover {
+    background-color: #555;
+}
+
+/* Remove button */
+button:nth-child(2) {
+    background-color: red;
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background-color: darkred;
+}
+
+/* Cancel button */
+button:nth-child(3) {
+    background-color: #333;
+    color: white;
+}
+
+button:nth-child(3):hover {
+    background-color: #555;
+}
+
+/* Back and Checkout buttons (assuming they are also buttons) */
+button:nth-child(4), button:nth-child(5) {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 12px 0;
+}
+
+button:nth-child(4):hover, button:nth-child(5):hover {
+    background-color: #555;
+}
+
+/* Additional styling for other elements like total price could be added as needed */       
